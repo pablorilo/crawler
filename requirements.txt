@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.2
+firebase-admin==6.1.0
+google-auth==2.19.1
+google.cloud.documentai_toolbox==0.7.0a0
+google-cloud-logging==3.6.0
+google-cloud-secret-manager==2.16.1
+pandas==2.0.2
+requests==2.28.2
+--extra-index-url https://us-central1-python.pkg.dev/legalia-mvp-dev-386605/legalia-os/simple 
+legalia_os
