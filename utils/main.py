@@ -39,3 +39,6 @@ def main():
     soup = get_soup(BOE_LIBRARY_URL)
     data = extract_data(soup)
     print(data)
+
+if __name__ == "__main__":
+    main()
