@@ -1,0 +1,6 @@
+sudo apt-get update 
+sudo apt-get install python3-pip
+sudo pip3 install virtualenv
+virtualenv -p python airflow_env
+source airflow_env/bin/activate
+pip install "apache-airflow[celery]==2.7.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.1/constraints-3.8.txt"
